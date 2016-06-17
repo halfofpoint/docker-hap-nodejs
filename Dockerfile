@@ -33,4 +33,4 @@ RUN apt-get install -y git
 RUN git clone https://github.com/KhaosT/HAP-NodeJS.git .
 RUN npm install -g node-gyp
 RUN npm rebuild
-RUN npm install
+RUN npm install --python=/opt/Python-2.7.5/python
